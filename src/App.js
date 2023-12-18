@@ -15,11 +15,11 @@ function App() {
         <Switch>
           <Route path="/About" component={AboutPage} />         
           <Route path="/Contacts" component={Contacts} />
-          <Route path="/HomePage" component={HomePage} />
+          <Route path="/HomePage" component={HomePage} /> {/* THIS IS THE MAIN HOMEPAGE ROUTE */}
           <Route path="/ShopAll" component={ShopAll} />
           <Route path="/Stories" component={Stories} />
           <Route path="/Trending" component={Trending} />
-          <Redirect to="/" /> {/* Redirect to home page if no matching route */}
+          <Redirect to="/HomePage" /> {/* Redirect to home page if no matching route */}
         </Switch>
       </div>
     </Router>
