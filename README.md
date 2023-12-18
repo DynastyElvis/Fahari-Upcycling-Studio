@@ -1,5 +1,5 @@
 # Fahari Upcycling Studio
-The Kenya Airways KQ
+The Kenya Airways -KQ
 
 # Getting Started with Create React App
 
