@@ -6,7 +6,7 @@ function Homepage() {
     <div>
       <h1>Welcome to the Home Page</h1>
 
-      <h2> Hkjskksk </h2>
+      <h2> test </h2>
 
       {/* Add content for the home page */ }
     </div>
