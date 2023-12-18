@@ -1,7 +1,7 @@
-// src/components/ContactPage.js
+// src/components/Contacts.js
 import React from 'react';
 
-function ContactPage() {
+function Contacts() {
   return (
     <div>
       <h1>Contact Us</h1>
@@ -10,4 +10,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage;
+export default Contacts;
