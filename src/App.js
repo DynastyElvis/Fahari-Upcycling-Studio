@@ -7,6 +7,7 @@ import Contacts from './components/Contacts';
 import ShopAll from './components/ShopAll';
 import Stories from './components/Stories';
 import Trending from './components/Trending';
+import productDetails from './components/productDetails';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/ShopAll" component={ShopAll} />
           <Route path="/Stories" component={Stories} />
           <Route path="/Trending" component={Trending} />
+          <Route path="/productDetails" component={productDetails} />
           <Redirect to="/HomePage" /> {/* Redirect to home page if no matching route */}
         </Switch>
       </div>
