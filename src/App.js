@@ -8,6 +8,8 @@ import ShopAll from './components/ShopAll';
 import Stories from './components/Stories';
 import Trending from './components/Trending';
 import faq from './components/faq';
+import signIn from './components/signIn';
+import signUp from './components/signUp';
 import productDetails from './components/productDetails';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path="/Trending" component={Trending} />
           <Route path="/productDetails" component={productDetails} />
           <Route path="/faq" component={faq} />
+          <Route path="/signIn" component={signIn} />
+          <Route path="/signUp" component={signUp} />
           <Redirect to="/HomePage" /> {/* Redirect to home page if no matching route */}
         </Switch>
       </div>
