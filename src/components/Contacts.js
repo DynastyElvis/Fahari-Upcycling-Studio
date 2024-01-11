@@ -4,14 +4,13 @@ import Navbar from './Navbar'; // Corrected import path
 
 
 function Contacts() {
+  <section className="preloader">
+  <div className="spinner">
+      <span className="sk-inner-circle"></span>
+  </div>
+</section>
   return (
     <div>
-
-<section className="preloader">
-    <div className="spinner">
-        <span className="sk-inner-circle"></span>
-    </div>
-</section>
 <Navbar />
 
 <main>

@@ -11,6 +11,7 @@ const HomePage = () => {
         <span className="sk-inner-circle"></span>
     </div>
 </section>
+
   return (
     <div>
 
