@@ -4,15 +4,15 @@ import Navbar from './Navbar'; // Corrected import path
 
 
 function productDetails() {
+    <section className="preloader">
+    <div className="spinner">
+        <span className="sk-inner-circle"></span>
+    </div>
+  </section>
   return (
 <div>
 <body>
 
-<section className="preloader">
-    <div className="spinner">
-        <span className="sk-inner-circle"></span>
-    </div>
-</section>
 <Navbar />
 
 <main>

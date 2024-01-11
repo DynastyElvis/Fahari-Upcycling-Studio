@@ -39,21 +39,21 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="products.html">
-                Products
-              </a>
+            <Link to="/AboutPage" className="nav-link">
+                Shop a
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="faq.html">
-                FAQs
-              </a>
+            <Link to="/AboutPage" className="nav-link">
+                About Us
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="contact.html">
-                Contact
-              </a>
+            <Link to="/AboutPage" className="nav-link">
+                About Us
+              </Link>
             </li>
           </ul>
           <div className="d-none d-lg-block">

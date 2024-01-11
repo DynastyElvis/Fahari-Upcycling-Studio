@@ -5,6 +5,11 @@ import React from 'react';
 
 
 function Trending() {
+  <section className="preloader">
+  <div className="spinner">
+      <span className="sk-inner-circle"></span>
+  </div>
+</section>
   return (
     <div>
       

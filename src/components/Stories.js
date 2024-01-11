@@ -4,6 +4,11 @@ import React from 'react';
 
 
 function Stories() {
+  <section className="preloader">
+  <div className="spinner">
+      <span className="sk-inner-circle"></span>
+  </div>
+</section>
   return (
     
     <div>

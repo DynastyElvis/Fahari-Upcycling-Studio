@@ -4,15 +4,14 @@ import Navbar from './Navbar'; // Corrected import path
 
 
 function ShopAll() {
-  return (
-<div>
-<body>
-
-<section className="preloader">
+    <section className="preloader">
     <div className="spinner">
         <span className="sk-inner-circle"></span>
     </div>
-</section>
+  </section>
+  return (
+<div>
+<body>
 
 <Navbar />
 
