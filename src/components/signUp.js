@@ -2,14 +2,14 @@
 import React from 'react';
 
 function Contacts() {
-  return (
-    <div>
-
-<section className="preloader">
+    <section className="preloader">
     <div className="spinner">
         <span className="sk-inner-circle"></span>
     </div>
-</section>
+  </section>
+  return (
+    <div>
+
 
 <body>
 
