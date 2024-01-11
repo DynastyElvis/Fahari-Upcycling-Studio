@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.scss'; // Import the SCSS file
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -17,24 +18,24 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <a className="navbar-brand" href="index.html">
+        <Link to="/" className="navbar-brand">
           <strong>
             <span>Little</span> Fashion
           </strong>
-        </a>
+        </Link>
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav mx-auto">
             <li className="nav-item">
-              <a className="nav-link active" href="index.html">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="about.html">
-                Story
-              </a>
+              <Link to="/AboutPage" className="nav-link">
+                About Us
+              </Link>
             </li>
 
             <li className="nav-item">
@@ -56,10 +57,9 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="d-none d-lg-block">
-                    <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
-
-                    <a href="product-detail.html" className="bi-bag custom-icon"></a>
-                </div> 
+            <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
+            <a href="product-detail.html" className="bi-bag custom-icon"></a>
+          </div>
         </div>
       </div>
     </nav>

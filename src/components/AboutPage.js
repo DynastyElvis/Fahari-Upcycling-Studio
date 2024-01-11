@@ -1,18 +1,17 @@
 // src/components/AboutPage.js
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar'; // Corrected import path
 
 
 function AboutPage() {
+  <section className="preloader">
+  <div className="spinner">
+      <span className="sk-inner-circle"></span>
+  </div>
+</section>
   return (
     <div>
-
-<section className="preloader">
-    <div className="spinner">
-        <span className="sk-inner-circle"></span>
-    </div>
-</section>
-
 <main>
 
 <Navbar />
