@@ -74,7 +74,7 @@ function Contacts() {
             </div>
         </div>
 
-        <img src="images/header/positive-european-woman-has-break-after-work.jpg" className="header-image img-fluid" alt="">
+        <img src="images/header/positive-european-woman-has-break-after-work.jpg" className="header-image img-fluid" alt=""/>
     </header>
 
     <section className="contact section-padding">
@@ -87,25 +87,25 @@ function Contacts() {
                     <form className="contact-form me-lg-5 pe-lg-3" role="form">
 
                         <div className="form-floating">
-                            <input type="text" name="name" id="name" className="form-control" placeholder="Full name" required>
+                            <input type="text" name="name" id="name" className="form-control" placeholder="Full name" required/>
 
                             <label for="name">Full name</label>
                         </div>
 
                         <div className="form-floating my-4">
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className="form-control" placeholder="Email address" required>
+                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" className="form-control" placeholder="Email address" required/>
 
                             <label for="email">Email address</label>
                         </div>
                         
                         <div className="form-floating my-4">
-                            <input type="subject" name="subject" id="subject"className="form-control" placeholder="Subject" required>
+                            <input type="subject" name="subject" id="subject"className="form-control" placeholder="Subject" required/>
 
                             <label for="subject">Subject</label>
                         </div>
 
                         <div className="form-floating mb-4">
-                            <textarea id="message" name="message" className="form-control" placeholder="Leave a comment here" required style="height: 160px"></textarea>
+                        <textarea id="message" name="message" className="form-control" placeholder="Leave a comment here" required style={{ height: "160px" }}></textarea>
 
                             <label for="message">Tell us about the project</label>
                         </div>
@@ -171,7 +171,7 @@ function Contacts() {
             <div className="col-lg-3 col-10 me-auto mb-4">
                 <h4 className="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
                 <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
-                <br>
+                <br/>
                 <p className="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
             </div>
 
