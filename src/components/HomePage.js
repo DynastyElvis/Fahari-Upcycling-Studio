@@ -82,7 +82,7 @@ const HomePage = () => {
             <div className="row">
 
                 <div className="col-12 text-center">
-                    <h2 className="mb-5">Get started with <span>Little</span> Fashion</h2>
+                    <h2 className="mb-5">Quisque eu   <span>efficitur</span> sapien</h2>
                 </div>
 
                 <div className="col-lg-2 col-12 mt-auto mb-auto">
@@ -107,16 +107,16 @@ const HomePage = () => {
 
                             <div className="row">
                                 <div className="col-lg-7 col-12">
-                                    <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" className="img-fluid" alt=""/>
+                                    <img src="https://img.freepik.com/free-photo/different-modern-vases-with-blue-red-light_23-2149835474.jpg?w=2000&t=st=1705062316~exp=1705062916~hmac=6d34129897d1a2c643f8aa3524c2085b626131768ab0a6e5bff8b266751f4e00" className="img-fluid" alt=""/>
                                 </div>
 
                                 <div className="col-lg-5 col-12">
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">Good <span>Design</span> <br/>Ideas for <span>your</span> fashion</h4>
 
-                                        <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
+                                        <p>In vehicula felis a justo tristique, nec posuere <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
 
-                                        <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
+                                        <p>Sed auctor, ligula vel finibus laoreet, justo odio iaculis est, a iaculis purus tellus ut ex. Ut in varius ligula. Proin nec dapibus elit.</p>
 
                                         <div className="mt-2 mt-lg-auto">
                                             <a href="about.html" className="custom-link mb-2">
@@ -134,7 +134,7 @@ const HomePage = () => {
                             <div className="row">
                                 <div className="col-lg-7 col-12">
                                     <div className="ratio ratio-16x9">
-                                        <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
 
@@ -142,9 +142,9 @@ const HomePage = () => {
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">Life at Studio</h4>
 
-                                        <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
+                                        <p>Sed auctor, ligula vel finibus laoreet, justo odio iaculis est, a iaculis purus tellus ut ex. Ut in varius ligula. Proin nec dapibus elit.</p>
 
-                                        <p>Custom work is branding, web design, UI/UX design</p>
+                                        <p>Integer vel tristique dui. Aenean nec metus vel erat efficitur fermentum. Duis congue bibendum risus, vel accumsan purus. Sed  odio, in finibus neque. Donec ultricies fringilla tortor.</p>
 
                                         <div className="mt-2 mt-lg-auto">
                                             <a href="contact.html" className="custom-link mb-2">
@@ -160,14 +160,14 @@ const HomePage = () => {
                         <div className="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
                             <div className="row">
                                 <div className="col-lg-7 col-12">
-                                    <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" className="img-fluid" alt=""/>
+                                    <img src="https://img.freepik.com/free-photo/different-vases-with-yellow-purple-light-assortment_23-2149835481.jpg?w=2000&t=st=1705062289~exp=1705062889~hmac=d9625553497105173ae9c690af5589349919f06eca23e8ea6c75b37affd5779c" className="img-fluid" alt=""/>
                                 </div>
 
                                 <div className="col-lg-5 col-12">
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">What can help you?</h4>
 
-                                        <p>Over three years in business, We’ve had the chance on projects</p>
+                                        <p>Integer vel tristique dui. Aenean nec metus vel erat efficitur fermentum. Duis congue bibendum risus, Sed ac tincidunt odio, in finibus neque. Donec ultricies fringilla tortor.</p>
 
                                         <div className="skill-thumb mt-3">
 
@@ -221,7 +221,7 @@ const HomePage = () => {
             <div className="row align-items-center">
 
                 <div className="col-lg-6 col-12">
-                    <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" className="img-fluid" alt=""/>
+                    <img src="https://img.freepik.com/free-photo/sustainable-development-goals-still-life_23-2150196699.jpg?w=2000&t=st=1705063035~exp=1705063635~hmac=8e6ac923e652d18b5ac32f4fcc34d1f84569487c9d3c53537a27d36f18f11526" className="img-fluid" alt=""/>
                 </div>
 
                 <div className="col-lg-6 col-12">
@@ -338,13 +338,20 @@ const HomePage = () => {
 
     <footer className="site-footer">
             <div className="container">
-                <div className="row">
+            <div className="container">
+            <img
+            src="logos/KQ-Logos-white.png"
+            alt="Little Fashion Logo"
+            style={{ width: '160px', height: 'auto' }}/>
+            </div>
 
+                <div className="row">
+                    
                     <div className="col-lg-3 col-10 me-auto mb-4">
-                        <h4 className="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
-                        <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
+                        
+                        <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>The Upcycling Studio</strong></p>
                         <br/>
-                        <p className="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                        <p className="copyright-text">Fahari Innovation Hub • <a href="www.kenya-airways.com" target="_blank">The Kenya Airways</a></p>
                     </div>
 
                     <div className="col-lg-5 col-8">
