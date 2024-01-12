@@ -28,17 +28,17 @@ const HomePage = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 col-10">
-                            <h1 className="slick-title">Cool Fashion</h1>
+                            <h1 className="slick-title">Upcycled Creations</h1>
 
-                            <p className="lead text-white mt-lg-3 mb-lg-5">Little fashion template comes with total 8 HTML pages provided by Tooplate website.</p>
+                            <p className="lead text-white mt-lg-3 mb-lg-5">Reviving Beauty from Discarded Treasures: Explore the Art of Upcycling at the Kenya Airways Innovation Hub's Upcycling Studio. Elevating Discarded into Desirable, One Unique Creation at a Time</p>
 
-                            <a href="about.html" className="btn custom-btn">Learn more about us</a>
+                            <a href="about.html" className="btn custom-btn">SHOP ALL</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+{/* 
         <div className="slick-custom">
             <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" className="img-fluid" alt=""/>
 
@@ -73,7 +73,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </section>
 
