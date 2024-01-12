@@ -38,7 +38,7 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-
+{/* 
         <div className="slick-custom">
             <img src="images/slideshow/team-meeting-renewable-energy-project.jpeg" className="img-fluid" alt=""/>
 
@@ -73,7 +73,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
 
     </section>
 
