@@ -114,9 +114,9 @@ const HomePage = () => {
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">Good <span>Design</span> <br/>Ideas for <span>your</span> fashion</h4>
 
-                                        <p>Little Fashion templates comes with <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
+                                        <p>In vehicula felis a justo tristique, nec posuere <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p>
 
-                                        <p>Since this HTML template is based on Boostrap 5 CSS library, you can feel free to add more components as you need.</p>
+                                        <p>Sed auctor, ligula vel finibus laoreet, justo odio iaculis est, a iaculis purus tellus ut ex. Ut in varius ligula. Proin nec dapibus elit.</p>
 
                                         <div className="mt-2 mt-lg-auto">
                                             <a href="about.html" className="custom-link mb-2">
@@ -142,9 +142,9 @@ const HomePage = () => {
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">Life at Studio</h4>
 
-                                        <p>Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
+                                        <p>Sed auctor, ligula vel finibus laoreet, justo odio iaculis est, a iaculis purus tellus ut ex. Ut in varius ligula. Proin nec dapibus elit.</p>
 
-                                        <p>Custom work is branding, web design, UI/UX design</p>
+                                        <p>Integer vel tristique dui. Aenean nec metus vel erat efficitur fermentum. Duis congue bibendum risus, vel accumsan purus. Sed  odio, in finibus neque. Donec ultricies fringilla tortor.</p>
 
                                         <div className="mt-2 mt-lg-auto">
                                             <a href="contact.html" className="custom-link mb-2">
@@ -167,7 +167,7 @@ const HomePage = () => {
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">What can help you?</h4>
 
-                                        <p>Over three years in business, We’ve had the chance on projects</p>
+                                        <p>Integer vel tristique dui. Aenean nec metus vel erat efficitur fermentum. Duis congue bibendum risus, Sed ac tincidunt odio, in finibus neque. Donec ultricies fringilla tortor.</p>
 
                                         <div className="skill-thumb mt-3">
 
@@ -221,7 +221,7 @@ const HomePage = () => {
             <div className="row align-items-center">
 
                 <div className="col-lg-6 col-12">
-                    <img src="images/retail-shop-owner-mask-social-distancing-shopping.jpg" className="img-fluid" alt=""/>
+                    <img src="https://img.freepik.com/free-photo/sustainable-development-goals-still-life_23-2150196699.jpg?w=2000&t=st=1705063035~exp=1705063635~hmac=8e6ac923e652d18b5ac32f4fcc34d1f84569487c9d3c53537a27d36f18f11526" className="img-fluid" alt=""/>
                 </div>
 
                 <div className="col-lg-6 col-12">
