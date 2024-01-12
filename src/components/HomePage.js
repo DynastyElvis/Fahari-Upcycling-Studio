@@ -82,7 +82,7 @@ const HomePage = () => {
             <div className="row">
 
                 <div className="col-12 text-center">
-                    <h2 className="mb-5">Get started with <span>Little</span> Fashion</h2>
+                    <h2 className="mb-5">Quisque eu   <span>efficitur</span> sapien</h2>
                 </div>
 
                 <div className="col-lg-2 col-12 mt-auto mb-auto">
@@ -107,7 +107,7 @@ const HomePage = () => {
 
                             <div className="row">
                                 <div className="col-lg-7 col-12">
-                                    <img src="images/pim-chu-z6NZ76_UTDI-unsplash.jpeg" className="img-fluid" alt=""/>
+                                    <img src="https://img.freepik.com/free-photo/different-modern-vases-with-blue-red-light_23-2149835474.jpg?w=2000&t=st=1705062316~exp=1705062916~hmac=6d34129897d1a2c643f8aa3524c2085b626131768ab0a6e5bff8b266751f4e00" className="img-fluid" alt=""/>
                                 </div>
 
                                 <div className="col-lg-5 col-12">
@@ -134,7 +134,7 @@ const HomePage = () => {
                             <div className="row">
                                 <div className="col-lg-7 col-12">
                                     <div className="ratio ratio-16x9">
-                                        <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe src="https://www.youtube-nocookie.com/embed/f_7JqPDWhfw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
 
@@ -160,7 +160,7 @@ const HomePage = () => {
                         <div className="tab-pane fade" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
                             <div className="row">
                                 <div className="col-lg-7 col-12">
-                                    <img src="images/cody-lannom-G95AReIh_Ko-unsplash.jpeg" className="img-fluid" alt=""/>
+                                    <img src="https://img.freepik.com/free-photo/different-vases-with-yellow-purple-light-assortment_23-2149835481.jpg?w=2000&t=st=1705062289~exp=1705062889~hmac=d9625553497105173ae9c690af5589349919f06eca23e8ea6c75b37affd5779c" className="img-fluid" alt=""/>
                                 </div>
 
                                 <div className="col-lg-5 col-12">
@@ -338,13 +338,20 @@ const HomePage = () => {
 
     <footer className="site-footer">
             <div className="container">
-                <div className="row">
+            <div className="container">
+            <img
+            src="logos/KQ-Logos-white.png"
+            alt="Little Fashion Logo"
+            style={{ width: '160px', height: 'auto' }}/>
+            </div>
 
+                <div className="row">
+                    
                     <div className="col-lg-3 col-10 me-auto mb-4">
-                        <h4 className="text-white mb-3"><a href="index.html">Little</a> Fashion</h4>
-                        <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2022 <strong>Little Fashion</strong></p>
+                        
+                        <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">Copyright © 2024 <strong>The Upcycling Studio</strong></p>
                         <br/>
-                        <p className="copyright-text">Designed by <a href="https://www.tooplate.com/" target="_blank">Tooplate</a></p>
+                        <p className="copyright-text">Fahari Innovation Hub • <a href="www.kenya-airways.com" target="_blank">The Kenya Airways</a></p>
                     </div>
 
                     <div className="col-lg-5 col-8">
