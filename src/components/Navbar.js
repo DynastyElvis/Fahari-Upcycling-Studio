@@ -19,8 +19,16 @@ const Navbar = () => {
         </button>
 
         <Link to="/" className="navbar-brand">
+        <img
+          src="/logos/Colored-Icon.png"
+          alt="Little Fashion Logo"
+          style={{ width: '60px', height: 'auto' }}
+        />
+      </Link>
+
+        <Link to="/" className="navbar-brand">
           <strong>
-            <span>Little</span> Fashion
+            <span>Upcycling </span> Studio
           </strong>
         </Link>
 
