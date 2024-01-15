@@ -115,8 +115,8 @@ const HomePage = () => {
                                 <div className="col-lg-5 col-12">
                                     <div className="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5">
                                         <h4 className="mb-3">Good <span>Design</span> <br/>Ideas for <span>your</span> fashion</h4>
-                                        <p> In vehicula felis a justo tristique, nec posuere{' '}
-                                        <Link to="/signIn">sign in</Link> / <Link to="/signUp">sign up</Link> pages, product listing / product detail, about, FAQs, and contact page.
+                                        <p>In vehicula felis a justo tristique, nec posuere{' '}
+                                        <strong><Link to="/signIn">Sign In</Link></strong> / <strong><Link to="/signUp">Sign Up</Link></strong> pages, product listing / product detail, about, FAQs, and contact page.
                                         </p>
                                             {/* <p>In vehicula felis a justo tristique, nec posuere <a href="sign-in.html">sign in</a> / <a href="sign-up.html">sign up</a> pages, product listing / product detail, about, FAQs, and contact page.</p> */}
 
