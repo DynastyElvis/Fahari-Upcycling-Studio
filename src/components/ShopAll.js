@@ -24,8 +24,8 @@ function ShopAll() {
 
                 <div className="col-lg-10 col-12">
                     <h1>
-                        <span className="d-block text-primary">Choose your</span>
-                        <span className="d-block text-dark">favorite stuffs</span>
+                        <span className="d-block text-primary">Discover the Art of Upcycling</span>
+                        <span className="d-block text-dark">in Our Shop All Section!</span>
                     </h1>
                 </div>
             </div>
@@ -37,25 +37,26 @@ function ShopAll() {
             <div className="row">
                 
                 <div className="col-12">
-                    <h2 className="mb-5">New Arrivals</h2>
+                    <h2 className="mb-5">Shop All</h2>
                 </div>
 
                 <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Bottle.png" className="img-fluid product-image" alt=""/>
                         </a>
+                        
 
                         <div className="product-top d-flex">
-                            <span className="product-alert me-auto">New Arrival</span>
+                            <span className="product-alert me-auto">New</span>
 
-                            <a href="#" className="bi-heart-fill product-icon"></a>
+                            <a href="www.google.com" className="bi-heart-fill product-icon"></a>
                         </div>
 
                         <div className="product-info d-flex">
                             <div>
                                 <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Tree pot</a>
+                                    <a href="product-detail.html" className="product-title-link">Upcycled Water Bottle</a>
                                 </h5>
 
                                 <p className="product-p">Original package design from house</p>
@@ -66,14 +67,17 @@ function ShopAll() {
                     </div>
                 </div>
 
+
+            
+
                 <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Conatiners.png" className="img-fluid product-image" alt=""/>
                         </a>
 
                         <div className="product-top d-flex">
-                            <span className="product-alert">Discounted Price</span>
+                            <span className="product-alert">Featured</span>
 
                             <a href="#" className="bi-heart-fill product-icon ms-auto"></a>
                         </div>
@@ -81,10 +85,10 @@ function ShopAll() {
                         <div className="product-info d-flex">
                             <div>
                                 <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Fashion set</a>
+                                    <a href="product-detail.html" className="product-title-link">Lunch Containers</a>
                                 </h5>
 
-                                <p className="product-p">Costume package</p>
+                                <p className="product-p">Lunch Containers</p>
                             </div>
 
                             <small className="product-price text-muted ms-auto">$35</small>
@@ -95,7 +99,7 @@ function ShopAll() {
                 <div className="col-lg-4 col-12">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Ecological-Bag.png" className="img-fluid product-image" alt=""/>
                         </a>
 
                         <div className="product-top d-flex">
@@ -105,7 +109,7 @@ function ShopAll() {
                         <div className="product-info d-flex">
                             <div>
                                 <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Juice Drinks</a>
+                                    <a href="product-detail.html" className="product-title-link">Ecological Jute Bags</a>
                                 </h5>
 
                                 <p className="product-p">Nature made another world</p>
@@ -116,14 +120,108 @@ function ShopAll() {
                     </div>
                 </div>
 
+
+                {/* ROW 2 */}
+
+                <div className="col-lg-4 col-12 mb-3">
+                    <div className="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/product/Stuffed-Animals.png" className="img-fluid product-image" alt=""/>
+                        </a>
+                        
+
+                        <div className="product-top d-flex">
+                            <span className="product-alert me-auto"></span>
+
+                            <a href="#" className="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div className="product-info d-flex">
+                            <div>
+                                <h5 className="product-title mb-0">
+                                    <a href="product-detail.html" className="product-title-link">Stuffed Animals</a>
+                                </h5>
+
+                                <p className="product-p">Original package design from house</p>
+                            </div>
+
+                            <small className="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="col-lg-4 col-12 mb-3">
+                    <div className="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/product/Wall Clock.png" className="img-fluid product-image" alt=""/>
+                        </a>
+                        
+
+                        <div className="product-top d-flex">
+                            <span className="product-alert me-auto"></span>
+
+                            <a href="#" className="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div className="product-info d-flex">
+                            <div>
+                                <h5 className="product-title mb-0">
+                                    <a href="product-detail.html" className="product-title-link">Wall Clock</a>
+                                </h5>
+
+                                <p className="product-p">Original package design from house</p>
+                            </div>
+
+                            <small className="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div className="col-lg-4 col-12 mb-3">
+                    <div className="product-thumb">
+                        <a href="product-detail.html">
+                            <img src="images/product/Recycled Trophy.png" className="img-fluid product-image" alt=""/>
+                        </a>
+                        
+
+                        <div className="product-top d-flex">
+                            <span className="product-alert me-auto">New Arrival</span>
+
+                            <a href="#" className="bi-heart-fill product-icon"></a>
+                        </div>
+
+                        <div className="product-info d-flex">
+                            <div>
+                                <h5 className="product-title mb-0">
+                                    <a href="product-detail.html" className="product-title-link">Trophy</a>
+                                </h5>
+
+                                <p className="product-p">Original package design from house</p>
+                            </div>
+
+                            <small className="product-price text-muted ms-auto">$25</small>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+
+
+                {/* ROW 2 */}
+
                 <div className="col-12">
-                    <h2 className="mb-5">Popular</h2>
+                    <h2 className="mb-5">Featured Products</h2>
                 </div>
 
                 <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/team-fredi-8HRKoay8VJE-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Recycled-Bottles.png" className="img-fluid product-image" alt=""/>
                         </a>
 
                         <div className="product-top d-flex">
@@ -135,7 +233,7 @@ function ShopAll() {
                         <div className="product-info d-flex">
                             <div>
                                 <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Package</a>
+                                    <a href="product-detail.html" className="product-title-link">Upcycled Water Glass</a>
                                 </h5>
 
                                 <p className="product-p">Original package design from house</p>
@@ -149,7 +247,7 @@ function ShopAll() {
                 <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/quokkabottles-kFc1_G1GvKA-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Water Bottle.png" className="img-fluid product-image" alt=""/>
                         </a>
 
                         <div className="product-top d-flex">
@@ -173,7 +271,7 @@ function ShopAll() {
                 <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
-                            <img src="images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                            <img src="images/product/Flower Vases.png" className="img-fluid product-image" alt=""/>
                         </a>
 
                         <div className="product-top d-flex">
@@ -183,7 +281,7 @@ function ShopAll() {
                         <div className="product-info d-flex">
                             <div>
                                 <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Medicine</a>
+                                    <a href="product-detail.html" className="product-title-link">Flower Vase</a>
                                 </h5>
 
                                 <p className="product-p">Original design from house</p>
