@@ -1,77 +1,95 @@
+// src/components/Footer.js
 import React from 'react';
-import './HomePage.scss'; // Import the SCSS file
-import { Link } from 'react-router-dom';
 
-const Footer = () => {
+function Footer() {
   return (
-    <nav className="navbar navbar-expand-lg">
-      <div className="container">
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+    <div>
+              <footer className="site-footer">
+        <div className="container">
+          <div className="container">
+            <img
+              src="logos/KQ-Logos-white.png"
+              alt="Little Fashion Logo"
+              style={{ width: "160px", height: "auto" }}
+            />
+          </div>
 
-        <Link to="/" className="navbar-brand">
-        <img
-          src="/logos/Colored-Icon.png"
-          alt="Little Fashion Logo"
-          style={{ width: '60px', height: 'auto' }}
-        />
-      </Link>
+          <div className="row">
+            <div className="col-lg-3 col-10 me-auto mb-4">
+              <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
+                Copyright © 2024 <strong>The Upcycling Studio</strong>
+              </p>
+              <br />
+              <p className="copyright-text">
+                Fahari Innovation Hub •{" "}
+                <a href="www.kenya-airways.com" target="_blank">
+                  The Kenya Airways
+                </a>
+              </p>
+            </div>
 
-        <Link to="/" className="navbar-brand">
-          <strong>
-            <span>Upcycling </span> Studio
-          </strong>
-        </Link>
+            <div className="col-lg-5 col-8">
+              <h5 className="text-white mb-3">Sitemap</h5>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav mx-auto">
-            <li className="nav-item">
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
-            </li>
+              <ul className="footer-menu d-flex flex-wrap">
+                <li className="footer-menu-item">
+                  <a href="about.html" className="footer-menu-link">
+                    Story
+                  </a>
+                </li>
 
-            <li className="nav-item">
-              <Link to="/ShopAll" className="nav-link">
-                Shop All
-              </Link>
-            </li>
+                <li className="footer-menu-item">
+                  <a href="#" className="footer-menu-link">
+                    Products
+                  </a>
+                </li>
 
-            <li className="nav-item">
-            <Link to="/" className="nav-link">
-                Stories
-              </Link>
-            </li>
-            <li className="nav-item">
-            <Link to="/AboutPage" className="nav-link">
-            About Us
-              </Link>
-            </li>
+                <li className="footer-menu-item">
+                  <a href="#" className="footer-menu-link">
+                    Privacy policy
+                  </a>
+                </li>
 
+                <li className="footer-menu-item">
+                  <a href="#" className="footer-menu-link">
+                    FAQs
+                  </a>
+                </li>
 
-            <li className="nav-item">
-            <Link to="/Contacts" className="nav-link">
-                Contact Us
-              </Link>
-            </li>
-          </ul>
-          <div className="d-none d-lg-block">
-            <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
-            <a href="product-detail.html" className="bi-bag custom-icon"></a>
+                <li className="footer-menu-item">
+                  <a href="#" className="footer-menu-link">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-4">
+              <h5 className="text-white mb-3">Social</h5>
+
+              <ul className="social-icon">
+                <li>
+                  <a href="#" className="social-icon-link bi-youtube"></a>
+                </li>
+
+                <li>
+                  <a href="#" className="social-icon-link bi-whatsapp"></a>
+                </li>
+
+                <li>
+                  <a href="#" className="social-icon-link bi-instagram"></a>
+                </li>
+
+                <li>
+                  <a href="#" className="social-icon-link bi-skype"></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </footer>
+    </div>
   );
-};
+}
 
-export default  Footer;
+export default Footer;
