@@ -2,6 +2,7 @@
 import React from "react";
 import "./HomePage.scss"; // Import the SCSS file
 import Navbar from "./Navbar"; // Corrected import path
+import Footer from "./Footer"; // Corrected import path
 import { Link } from "react-router-dom";
 import ShopAll from "./ShopAll"; // Make sure to provide the correct path
 
@@ -14,6 +15,7 @@ const HomePage = () => {
 
   return (
     <div>
+
       <Navbar />
 
       <section className="slick-slideshow">
@@ -504,90 +506,8 @@ const HomePage = () => {
         </div>
       </section>
 
-      <footer className="site-footer">
-        <div className="container">
-          <div className="container">
-            <img
-              src="logos/KQ-Logos-white.png"
-              alt="Little Fashion Logo"
-              style={{ width: "160px", height: "auto" }}
-            />
-          </div>
-
-          <div className="row">
-            <div className="col-lg-3 col-10 me-auto mb-4">
-              <p className="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
-                Copyright © 2024 <strong>The Upcycling Studio</strong>
-              </p>
-              <br />
-              <p className="copyright-text">
-                Fahari Innovation Hub •{" "}
-                <a href="www.kenya-airways.com" target="_blank">
-                  The Kenya Airways
-                </a>
-              </p>
-            </div>
-
-            <div className="col-lg-5 col-8">
-              <h5 className="text-white mb-3">Sitemap</h5>
-
-              <ul className="footer-menu d-flex flex-wrap">
-                <li className="footer-menu-item">
-                  <a href="about.html" className="footer-menu-link">
-                    Story
-                  </a>
-                </li>
-
-                <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
-                    Products
-                  </a>
-                </li>
-
-                <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
-                    Privacy policy
-                  </a>
-                </li>
-
-                <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
-                    FAQs
-                  </a>
-                </li>
-
-                <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-3 col-4">
-              <h5 className="text-white mb-3">Social</h5>
-
-              <ul className="social-icon">
-                <li>
-                  <a href="#" className="social-icon-link bi-youtube"></a>
-                </li>
-
-                <li>
-                  <a href="#" className="social-icon-link bi-whatsapp"></a>
-                </li>
-
-                <li>
-                  <a href="#" className="social-icon-link bi-instagram"></a>
-                </li>
-
-                <li>
-                  <a href="#" className="social-icon-link bi-skype"></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
+      
     </div>
   );
 };
