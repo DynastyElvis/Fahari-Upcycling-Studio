@@ -191,10 +191,10 @@ const HomePage = () => {
                         </p>
 
                         <div className="mt-2 mt-lg-auto">
-                          <a href="about.html" className="custom-link mb-2">
+                          <Link to="/AboutPage" className="custom-link mb-2">
                             Learn more about us
                             <i className="bi-arrow-right ms-2"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -238,10 +238,10 @@ const HomePage = () => {
                         </p>
 
                         <div className="mt-2 mt-lg-auto">
-                          <a href="contact.html" className="custom-link mb-2">
+                          <Link to="/Contacts" className="custom-link mb-2">
                             Work with us
                             <i className="bi-arrow-right ms-2"></i>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -363,10 +363,10 @@ const HomePage = () => {
                   this Little Fashion by Tooplate.
                 </p>
 
-                <a href="products.html" className="custom-link">
+                <Link to="/shopAll" className="custom-link">
                   Explore Products
                   <i className="bi-arrow-right ms-2"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -496,9 +496,9 @@ const HomePage = () => {
             </div>
 
             <div className="col-12 text-center">
-              <a href="products.html" className="view-all">
+              <Link to="/ShopAll" className="view-all">
                 View All Products
-              </a>
+              </Link>
             </div>
           </div>
         </div>
