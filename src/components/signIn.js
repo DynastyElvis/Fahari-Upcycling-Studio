@@ -14,12 +14,6 @@ const HomePage = () => {
 
 <body>
 
-<section className="preloader">
-    <div className="spinner">
-        <span className="sk-inner-circle"></span>
-    </div>
-</section>
-
 <main>
 
     <section className="sign-in-form section-padding">
