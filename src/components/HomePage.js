@@ -12,10 +12,10 @@ const HomePage = () => {
       <span className="sk-inner-circle"></span>
     </div>
   </section>;
-
+  
   return (
+    
     <div>
-
       <Navbar />
 
       <section className="slick-slideshow">
@@ -384,13 +384,13 @@ const HomePage = () => {
 
             <div className="col-lg-4 col-12 mb-3">
               <div className="product-thumb">
-                <a href="product-detail.html">
+                <Link to="/productDetails">
                   <img
                     src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg"
                     className="img-fluid product-image"
                     alt=""
                   />
-                </a>
+                </Link>
 
                 <div className="product-top d-flex">
                   <span className="product-alert me-auto">New Arrival</span>
@@ -507,7 +507,6 @@ const HomePage = () => {
       </section>
 
       <Footer />
-      
     </div>
   );
 };
