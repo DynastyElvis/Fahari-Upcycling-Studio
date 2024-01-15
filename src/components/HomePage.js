@@ -2,6 +2,7 @@
 import React from 'react';
 import './HomePage.scss'; // Import the SCSS file
 import Navbar from './Navbar'; // Corrected import path
+import { Link } from 'react-router-dom';
 
 
 const HomePage = () => {
@@ -31,8 +32,9 @@ const HomePage = () => {
                             <h1 className="slick-title">Upcycled Creations</h1>
 
                             <p className="lead text-white mt-lg-3 mb-lg-5">Reviving Beauty from Discarded Treasures: Explore the Art of Upcycling at the Kenya Airways Innovation Hub's Upcycling Studio. Elevating Discarded into Desirable, One Unique Creation at a Time</p>
+                            <Link to="/ShopAll" className="btn custom-btn"> SHOP ALL</Link>
 
-                            <a href="about.html" className="btn custom-btn">SHOP ALL</a>
+                            {/* <a href="about.html" className="btn custom-btn">SHOP ALL</a> */}
                         </div>
                     </div>
                 </div>
