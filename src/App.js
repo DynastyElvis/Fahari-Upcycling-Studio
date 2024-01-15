@@ -11,6 +11,7 @@ import FAQ from './components/faq';  // Change the component name to capitalize
 import SignIn from './components/signIn';  // Change the component name to capitalize
 import SignUp from './components/signUp';  // Change the component name to capitalize
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import ProductDetails from './components/productDetails';  // Change the component name to capitalize
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/signIn" component={SignIn} />
           <Route path="/signUp" component={SignUp} />
           <Route path="/Navbar" component={Navbar} />
+          <Route path="/Footer" component={Footer} />
           <Redirect to="/HomePage" />
         </Switch>
       </div>
