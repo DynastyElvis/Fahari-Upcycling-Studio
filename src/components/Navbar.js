@@ -1,6 +1,6 @@
-import React from 'react';
-import './HomePage.scss'; // Import the SCSS file
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./HomePage.scss"; // Import the SCSS file
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,12 +19,12 @@ const Navbar = () => {
         </button>
 
         <Link to="/" className="navbar-brand">
-        <img
-          src="/logos/Colored-Icon.png"
-          alt="Little Fashion Logo"
-          style={{ width: '60px', height: 'auto' }}
-        />
-      </Link>
+          <img
+            src="/logos/Colored-Icon.png"
+            alt="Little Fashion Logo"
+            style={{ width: "60px", height: "auto" }}
+          />
+        </Link>
 
         <Link to="/" className="navbar-brand">
           <strong>
@@ -47,26 +47,28 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-            <Link to="/" className="nav-link">
+              <Link to="/" className="nav-link">
                 Stories
               </Link>
             </li>
             <li className="nav-item">
-            <Link to="/AboutPage" className="nav-link">
-            About Us
+              <Link to="/AboutPage" className="nav-link">
+                About Us
               </Link>
             </li>
 
-
             <li className="nav-item">
-            <Link to="/Contacts" className="nav-link">
+              <Link to="/Contacts" className="nav-link">
                 Contact Us
               </Link>
             </li>
           </ul>
           <div className="d-none d-lg-block">
             <a href="sign-in.html" className="bi-person custom-icon me-3"></a>
-            <a href="product-detail.html" className="bi-bag custom-icon"></a>
+            <Link to="/productDetails" className="bi-bag custom-icon"></Link>
+            {/* <Link to="/productDetails" className="bi-bag custom-icon">
+              <span className="trending-text">Trending</span>
+            </Link> */}
           </div>
         </div>
       </div>

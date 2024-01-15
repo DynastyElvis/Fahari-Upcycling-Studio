@@ -1,10 +1,11 @@
 // src/components/Footer.js
-import React from 'react';
+import React from "react";
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div>
-              <footer className="site-footer">
+      <footer className="site-footer">
         <div className="container">
           <div className="container">
             <img
@@ -33,15 +34,15 @@ function Footer() {
 
               <ul className="footer-menu d-flex flex-wrap">
                 <li className="footer-menu-item">
-                  <a href="about.html" className="footer-menu-link">
+                  <Link to="/Stories" className="footer-menu-link">
                     Story
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
+                <Link to="/ShopAll" className="footer-menu-link">
                     Products
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="footer-menu-item">
@@ -51,15 +52,16 @@ function Footer() {
                 </li>
 
                 <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
+                <Link to="/faq" className="footer-menu-link">
                     FAQs
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="footer-menu-item">
-                  <a href="#" className="footer-menu-link">
-                    Contact
-                  </a>
+                <Link to="/Contacts" className="footer-menu-link">
+                Contacts
+                  </Link>
+                    
                 </li>
               </ul>
             </div>
