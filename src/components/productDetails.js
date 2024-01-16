@@ -1,6 +1,7 @@
 // src/components/ShopAll.js
 import React from 'react';
 import Navbar from './Navbar'; // Corrected import path
+import Footer from "./Footer"; // Corrected import path
 
 
 function productDetails() {
@@ -181,7 +182,10 @@ function productDetails() {
 
 </main>
 
-<footer className="site-footer">
+
+<Footer />
+
+{/* <footer className="site-footer">
     <div className="container">
         <div className="row">
 
@@ -225,7 +229,7 @@ function productDetails() {
 
         </div>
     </div>
-</footer>
+</footer> */}
 
 <div className="modal fade" id="cart-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog modal-dialog-centered modal-lg">

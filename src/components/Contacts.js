@@ -1,6 +1,7 @@
 // src/components/Contacts.js
 import React from 'react';
 import Navbar from './Navbar'; // Corrected import path
+import Footer from "./Footer"; // Corrected import path
 
 
 function Contacts() {
@@ -120,6 +121,9 @@ function Contacts() {
     </section>
 </main>
 
+<Footer />
+
+{/* 
 <footer className="site-footer">
     <div className="container">
         <div className="row">
@@ -164,7 +168,7 @@ function Contacts() {
 
         </div>
     </div>
-</footer>
+</footer> */}
 
     </div>
   );

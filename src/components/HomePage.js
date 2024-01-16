@@ -507,6 +507,7 @@ const HomePage = () => {
       </section>
 
       <Footer />
+      
     </div>
   );
 };
