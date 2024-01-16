@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar'; // Corrected import path
+import Footer from "./Footer"; // Corrected import path
 
 
 function AboutPage() {
@@ -147,7 +148,9 @@ function AboutPage() {
 
 </main>
 
-<footer className="site-footer">
+<Footer />
+
+{/* <footer className="site-footer">
     <div className="container">
         <div className="row">
 
@@ -191,9 +194,9 @@ function AboutPage() {
 
         </div>
     </div>
-</footer>
+</footer> */}
 
-<div className="modal fade" id="don" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+{/* <div className="modal fade" id="don" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div className="modal-dialog modal-dialog-centered modal-lg">
         <div className="modal-content border-0">
             <div className="modal-header flex-column">
@@ -306,7 +309,7 @@ function AboutPage() {
         </div>
 
     </div>
-</div>
+</div> */}
 
 
     </div>

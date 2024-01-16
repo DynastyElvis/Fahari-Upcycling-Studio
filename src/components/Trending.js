@@ -1,5 +1,6 @@
 // src/components/Trending.js
 import React from 'react';
+import Footer from "./Footer"; // Corrected import path
 
 
 
@@ -15,6 +16,9 @@ function Trending() {
       
       <h1>Trending</h1>
       {/* Add content for the about page */}
+
+      <Footer />
+
     </div>
   );
 }

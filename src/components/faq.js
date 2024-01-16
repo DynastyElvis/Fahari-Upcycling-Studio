@@ -2,6 +2,7 @@
 import React from 'react';
 import './HomePage.scss'; // Import the SCSS file
 import Navbar from './Navbar'; // Corrected import path
+import Footer from "./Footer"; // Corrected import path
 
 
 
@@ -147,7 +148,10 @@ const HomePage = () => {
 
 </main>
 
-<footer className="site-footer">
+
+<Footer />
+
+{/* <footer className="site-footer">
     <div className="container">
         <div className="row">
 
@@ -191,7 +195,7 @@ const HomePage = () => {
 
         </div>
     </div>
-</footer>
+</footer> */}
 
 
 <script src="js/jquery.min.js"></script>
