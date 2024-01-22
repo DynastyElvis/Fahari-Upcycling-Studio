@@ -14,7 +14,6 @@ const HomePage = () => {
   </section>;
   
   return (
-    
     <div>
       <Navbar />
 
