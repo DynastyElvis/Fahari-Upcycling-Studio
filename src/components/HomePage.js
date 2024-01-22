@@ -7,11 +7,7 @@ import { Link } from "react-router-dom";
 import ShopAll from "./ShopAll"; // Make sure to provide the correct path
 
 const HomePage = () => {
-  <section className="preloader">
-    <div className="spinner">
-      <span className="sk-inner-circle"></span>
-    </div>
-  </section>;
+
   
   return (
     <div>
