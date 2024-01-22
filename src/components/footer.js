@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div>
-      <footer className="site-footer">
+      <footer className="site-footer">   
         <div className="container">
           <div className="container">
             <img

@@ -21,7 +21,7 @@ const HomePage = () => {
       <section className="slick-slideshow">
         <div className="slick-custom">
           <img
-            src="images/slideshow/medium-shot-business-women-high-five.jpeg"
+            src="images/slideshow/1medium-shot-business-women-high-five.jpeg"
             className="img-fluid"
             alt=""
           />
