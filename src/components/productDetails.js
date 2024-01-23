@@ -1,15 +1,34 @@
 // src/components/ShopAll.js
-import React from 'react';
+import {React, useEffect, useState } from 'react';
 import Navbar from './Navbar'; // Corrected import path
 import Footer from "./Footer"; // Corrected import path
+import { productData } from './ProductData';
+import { useParams } from 'react-router-dom';
 
 
-function productDetails() {
-    <section className="preloader">
-    <div className="spinner">
-        <span className="sk-inner-circle"></span>
-    </div>
-  </section>
+function ProductDetails() {
+
+    const [product, setProduct] = useState([]);
+    const {productID} = useParams();
+    console.log(productData)
+    // [productData].forEach(singleProduct => {
+
+    //     if (singleProduct.id == productID) {
+
+    //         setProduct(singleProduct);
+    //     }
+    // })
+
+    useEffect(() => {
+        for (let i = 0; i < productData.length; i++) {
+            let singleProduct = productData[i];
+
+            if (singleProduct.id == productID) {
+                setProduct(singleProduct);
+            }
+        }
+    }, [productID]);
+
   return (
 <div>
 <body>
@@ -40,26 +59,26 @@ function productDetails() {
 
                 <div className="col-lg-6 col-12">
                     <div className="product-thumb">
-                        <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                        <img src={product?.Image} className="img-fluid product-image" alt=""/>
                     </div>
                 </div>
 
                 <div className="col-lg-6 col-12">
                     <div className="product-info d-flex">
                         <div>
-                            <h2 className="product-title mb-0">Tree pot</h2>
+                            <h2 className="product-title mb-0">{product?.title}</h2>
 
-                            <p className="product-p">Original package design from house</p>
+                            <p className="product-p">{product?.description}</p>
                         </div>
 
-                        <small className="product-price text-muted ms-auto mt-auto mb-5">$25</small>
+                        <small className="product-price text-muted ms-auto mt-auto mb-5">${product?.price}</small>
                     </div>
 
                     <div className="product-description">
 
                         <strong className="d-block mt-4 mb-2">Description</strong>
 
-                        <p className="lead mb-5">Over three years in business, We’ve had the chance to work on a variety of projects, with companies</p>
+                        <p className="lead mb-5">{product?.description}</p>
                     </div>
 
                     <div className="product-cart-thumb row">
@@ -241,7 +260,7 @@ function productDetails() {
             <div className="modal-body">
                 <div className="row">
                     <div className="col-lg-6 col-12 mt-4 mt-lg-0">
-                        <img src="images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg" className="img-fluid product-image" alt=""/>
+                        <img src={product?.Image} className="img-fluid product-image" alt=""/>
                     </div>
 
                     <div className="col-lg-6 col-12 mt-3 mt-lg-0">
@@ -279,4 +298,4 @@ function productDetails() {
   );
 }
 
-export default productDetails;
+export default ProductDetails;

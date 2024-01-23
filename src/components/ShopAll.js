@@ -2,6 +2,8 @@
 import React from 'react';
 import Navbar from './Navbar'; // Corrected import path
 import Footer from "./Footer"; // Corrected import path
+import { productData } from './ProductData';
+import { Link } from 'react-router-dom';
 
 
 function ShopAll() {
@@ -41,37 +43,59 @@ function ShopAll() {
                     <h2 className="mb-5">Shop All</h2>
                 </div>
 
-                <div className="col-lg-4 col-12 mb-3">
-                    <div className="product-thumb">
-                        <a href="product-detail.html">
-                            <img src="images/product/Bottle.png" className="img-fluid product-image" alt=""/>
-                        </a>
-                        
 
-                        <div className="product-top d-flex">
-                            <span className="product-alert me-auto">New</span>
+{/* product */}
 
-                            <a href="www.google.com" className="bi-heart-fill product-icon"></a>
-                        </div>
 
-                        <div className="product-info d-flex">
-                            <div>
-                                <h5 className="product-title mb-0">
-                                    <a href="product-detail.html" className="product-title-link">Upcycled Water Bottle</a>
-                                </h5>
+                {productData.map(product=> (
 
-                                <p className="product-p">Original package design from house</p>
+                        <div className="col-lg-4 col-12 mb-3">
+                        <div className="product-thumb">
+
+                            <Link to={"/product/"+product.id}>
+                           
+                                <img src={product.Image} className="img-fluid product-image" alt=""/>
+
+                            </Link>
+
+                                
+                          
+                            
+
+                            <div className="product-top d-flex">
+                                <span className="product-alert me-auto">New</span>
+
+                                <a href="www.google.com" className="bi-heart-fill product-icon"></a>
                             </div>
 
-                            <small className="product-price text-muted ms-auto">$25</small>
+                            <div className="product-info d-flex">
+                                <div>
+                                    <h5 className="product-title mb-0">
+
+                                        
+                                    <Link to={"/product/"+product.id}>{product.title}   
+                                    </Link>
+
+
+
+                                    </h5>
+
+                                    <p className="product-p">{product.description}</p>
+                                </div>
+
+                                <small className="product-price text-muted ms-auto">${product.price}</small>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                        </div>
+
+
+                ))}
+               
 
 
             
 
-                <div className="col-lg-4 col-12 mb-3">
+                {/* <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
                             <img src="images/product/Conatiners.png" className="img-fluid product-image" alt=""/>
@@ -95,9 +119,9 @@ function ShopAll() {
                             <small className="product-price text-muted ms-auto">$35</small>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                <div className="col-lg-4 col-12">
+                {/* <div className="col-lg-4 col-12">
                     <div className="product-thumb">
                         <a href="product-detail.html">
                             <img src="images/product/Ecological-Bag.png" className="img-fluid product-image" alt=""/>
@@ -119,12 +143,12 @@ function ShopAll() {
                             <small className="product-price text-muted ms-auto">$45</small>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* ROW 2 */}
 
-                <div className="col-lg-4 col-12 mb-3">
+                {/* <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
                             <img src="images/product/Stuffed-Animals.png" className="img-fluid product-image" alt=""/>
@@ -149,10 +173,10 @@ function ShopAll() {
                             <small className="product-price text-muted ms-auto">$25</small>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
-                <div className="col-lg-4 col-12 mb-3">
+                {/* <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
                             <img src="images/product/Wall Clock.png" className="img-fluid product-image" alt=""/>
@@ -177,11 +201,11 @@ function ShopAll() {
                             <small className="product-price text-muted ms-auto">$25</small>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
-                <div className="col-lg-4 col-12 mb-3">
+                {/* <div className="col-lg-4 col-12 mb-3">
                     <div className="product-thumb">
                         <a href="product-detail.html">
                             <img src="images/product/Recycled Trophy.png" className="img-fluid product-image" alt=""/>
@@ -206,7 +230,7 @@ function ShopAll() {
                             <small className="product-price text-muted ms-auto">$25</small>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
                 
