@@ -7,21 +7,16 @@ import { Link } from "react-router-dom";
 import ShopAll from "./ShopAll"; // Make sure to provide the correct path
 
 const HomePage = () => {
-  <section className="preloader">
-    <div className="spinner">
-      <span className="sk-inner-circle"></span>
-    </div>
-  </section>;
+
   
   return (
-    
     <div>
       <Navbar />
 
       <section className="slick-slideshow">
         <div className="slick-custom">
           <img
-            src="images/slideshow/medium-shot-business-women-high-five.jpeg"
+            src="images/slideshow/1medium-shot-business-women-high-five.jpeg"
             className="img-fluid"
             alt=""
           />
