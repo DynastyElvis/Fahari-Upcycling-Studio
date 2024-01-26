@@ -24,14 +24,14 @@ function AboutPage() {
 
                 <div className="col-lg-6 col-12 header-info">
                     <h1>
-                        <span className="d-block text-primary">Company</span>
-                        <span className="d-block text-dark">Fashion</span>
+                        <span className="d-block text-primary">KQ Fahari</span>
+                        <span className="d-block text-dark"> Innovation Hub</span>
                     </h1>
                 </div>
             </div>
         </div>
 
-        <img src="images/header/businesspeople-meeting-office-working.jpg" className="header-image img-fluid" alt=""/>
+        <img src="/images/header/FIH Picture.jpg" className="header-image img-fluid" alt=""/>
     </header>
 
     <section className="team section-padding">
@@ -44,11 +44,11 @@ function AboutPage() {
 
                 <div className="col-lg-4 mb-4 col-12">
                     <div className="team-thumb d-flex align-items-center">
-                        <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg" className="img-fluid custom-circle-image team-image me-4" alt=""/>
+                        <img src="/images/people/Grace Vihenda.png" className="img-fluid custom-circle-image team-image me-4" alt=""/>
 
                         <div className="team-info">
-                            <h5 className="mb-0">Don</h5>
-                            <strong className="text-muted">Product, VP</strong>
+                            <h5 className="mb-0">Grace V.</h5>
+                            <strong className="text-muted">Manager</strong>
 
                             <button type="button" className="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#don">
                               <i className="bi-plus-circle-fill"></i>
@@ -60,11 +60,11 @@ function AboutPage() {
 
                 <div className="col-lg-4 mb-4 col-12">
                     <div className="team-thumb d-flex align-items-center">
-                        <img src="images/people/portrait-british-woman.jpeg" className="img-fluid custom-circle-image team-image me-4" alt=""/>
+                        <img src="/images/people/Azina.png" className="img-fluid custom-circle-image team-image me-4" alt=""/>
 
                         <div className="team-info">
-                            <h5 className="mb-0">Kelly</h5>
-                            <strong className="text-muted">Marketing</strong>
+                            <h5 className="mb-0">Azina S.</h5>
+                            <strong className="text-muted">Hub Lead</strong>
 
                             <button type="button" className="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#kelly">
                               <i className="bi-plus-circle-fill"></i>
@@ -78,8 +78,8 @@ function AboutPage() {
                         <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg" className="img-fluid custom-circle-image team-image me-4" alt=""/>
 
                         <div className="team-info">
-                            <h5 className="mb-0">Marie</h5>
-                            <strong className="text-muted">Founder</strong>
+                            <h5 className="mb-0">Janet K.</h5>
+                            <strong className="text-muted">Support</strong>
 
                             <button type="button" className="btn custom-modal-btn" data-bs-toggle="modal" data-bs-target="#marie">
                               <i className="bi-plus-circle-fill"></i>
@@ -104,9 +104,9 @@ function AboutPage() {
                             <p className="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
 
                             <div className="slick-testimonial-client d-flex align-items-center mt-4">
-                                <img src="images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg" className="img-fluid custom-circle-image me-3" alt=""/>
+                                <img src="/images/people/Grace Vihenda.png" className="img-fluid custom-circle-image me-3" alt=""/>
 
-                                <span>George, <strong className="text-muted">Digital Art Fashion</strong></span>
+                                <span>G. Vihenda, <strong className="text-muted">Manager, Innovation Hub</strong></span>
                             </div>
                         </div>
 
@@ -114,9 +114,9 @@ function AboutPage() {
                             <p className="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
 
                             <div className="slick-testimonial-client d-flex align-items-center mt-4">
-                                <img src="images/people/beautiful-woman-face-portrait-brown-background.jpeg" className="img-fluid custom-circle-image me-3" alt=""/>
+                                <img src="/images/people/Azina.png" className="img-fluid custom-circle-image me-3" alt=""/>
 
-                                <span>Sandar, <strong className="text-muted">Zoom Fashion Idea</strong></span>
+                                <span>Azina S., <strong className="text-muted">FIH</strong></span>
                             </div>
                         </div>
 
@@ -126,11 +126,11 @@ function AboutPage() {
                             <div className="slick-testimonial-client d-flex align-items-center mt-4">
                                 <img src="images/people/portrait-british-woman.jpeg" className="img-fluid custom-circle-image me-3" alt=""/>
 
-                                <span>Marie, <strong className="text-muted">Art Fashion Design</strong></span>
+                                <span>Janet, <strong className="text-muted"> Flight Purser</strong></span>
                             </div>
                         </div>
 
-                        <div className="slick-testimonial-caption">
+                        {/* <div className="slick-testimonial-caption">
                             <p className="lead">Over three years in business, We’ve had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet</p>
 
                             <div className="slick-testimonial-client d-flex align-items-center mt-4">
@@ -138,7 +138,7 @@ function AboutPage() {
 
                                 <span>Catherine, <strong className="text-muted">Dress Fashion</strong></span>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

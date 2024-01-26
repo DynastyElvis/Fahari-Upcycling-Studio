@@ -31,7 +31,7 @@ function Contacts() {
             </div>
         </div>
 
-        <img src="images/header/positive-european-woman-has-break-after-work.jpg" className="header-image img-fluid" alt=""/>
+        <img src="/images/header/KQ Customer Care.JPG" className="header-image img-fluid" alt=""/>
     </header>
 
     <section className="contact section-padding">
@@ -76,10 +76,10 @@ function Contacts() {
                 <div className="col-lg-6 col-12 mt-5 ms-auto">
                     <div className="row">
                         <div className="col-6 border-end contact-info">
-                            <h6 className="mb-3">New Business</h6>
+                            <h6 className="mb-3">Fahari Innovation Hub</h6>
 
                             <a href="mailto:hello@company.com" className="custom-link">
-                                hello@company.com
+                                hello@fahariinnovation.com
                                 <i className="bi-arrow-right ms-2"></i>
                             </a>
                         </div>
@@ -88,15 +88,15 @@ function Contacts() {
                           <h6 className="mb-3">Main Studio</h6>
 
                             <a href="mailto:studio@company.com" className="custom-link">
-                                studio@company.com
+                                faharistudio@kenyaairways.com
                                 <i className="bi-arrow-right ms-2"></i>
                             </a>
                         </div>
 
                         <div className="col-6 border-top border-end contact-info">
-                            <h6 className="mb-3">Our Office</h6>
+                            <h6 className="mb-3">Head Office</h6>
 
-                            <p className="text-muted">Akershusstranda 20, 0150 Oslo, Norway</p>
+                            <p className="text-muted">KQ Base - Airport North Road, Nairobi</p>
                         </div>
 
                         <div className="col-6 border-top contact-info">
