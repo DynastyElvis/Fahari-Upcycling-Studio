@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <section className="preloader">
+      {/* <section className="preloader">
         <div className="spinner">
           <span className="sk-inner-circle"></span>
         </div>
-      </section>
+      </section> */}
 
       <nav className="navbar navbar-expand-lg">
         <div className="container">
